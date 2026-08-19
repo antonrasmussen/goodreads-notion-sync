@@ -23,8 +23,22 @@ class Settings(BaseSettings):
     )
 
     def require_notion(self) -> None:
-        if not self.notion_token:
+        missing = [
+            name
+            for name, value in (
+                ("NOTION_TOKEN", self.notion_token),
+                ("NOTION_LIBRARY_DATABASE_ID", self.notion_library_database_id),
+                (
+                    "NOTION_READING_LIST_DATABASE_ID",
+                    self.notion_reading_list_database_id,
+                ),
+                ("GOODREADS_USER_ID", self.goodreads_user_id),
+            )
+            if not value
+        ]
+        if missing:
             raise SystemExit(
-                "NOTION_TOKEN is required. Create an internal integration, "
-                "share both databases with it, and put the token in .env."
+                "Missing required config: "
+                + ", ".join(missing)
+                + ". Set them in .env or GitHub Actions secrets."
             )
