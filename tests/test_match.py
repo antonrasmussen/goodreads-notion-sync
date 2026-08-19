@@ -53,6 +53,29 @@ def test_rejects_low_title_overlap():
     assert matched.book is None
 
 
+def test_graphic_novel_does_not_match_beyond_the_goal():
+    row = _row(
+        title="The Goal (Graphic Novel)",
+        author="Eliyahu M. Goldratt",
+        goodreads_id=None,
+    )
+    beyond = _book(
+        goodreads_id=172800,
+        title="Beyond the Goal: Eliyahu Goldratt Speaks on the Theory of Constraints",
+        author="Eliyahu M. Goldratt",
+        exclusive_shelf="to-read",
+    )
+    graphic = _book(
+        goodreads_id=35528537,
+        title="The Goal: A Business Graphic Novel",
+        author="Eliyahu M. Goldratt",
+        exclusive_shelf="read",
+    )
+    matched = match_row(row, [beyond, graphic])
+    assert matched.book is graphic
+    assert matched.book.goodreads_id == 35528537
+
+
 def test_currently_reading_sets_status():
     changes = plan_reading_list_updates(
         _row(),
