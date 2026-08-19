@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Anton's bookshelf: read</title>
+    <item>
+      <title><![CDATA[The Green Berets]]></title>
+      <book_id>111111</book_id>
+      <author_name>Robin Moore</author_name>
+      <user_rating>4</user_rating>
+      <user_read_at><![CDATA[Thu, 15 Jan 2026 00:00:00 -0800]]></user_read_at>
+      <user_date_added>Sun, 01 Jan 2023 00:00:00 -0800</user_date_added>
+      <user_shelves>read</user_shelves>
+      <average_rating>3.90</average_rating>
+      <book id="111111"><num_pages>400</num_pages></book>
+    </item>
+    <item>
+      <title><![CDATA[The Innovator's Prescription: A Disruptive Solution for Health Care]]></title>
+      <book_id>222222</book_id>
+      <author_name>Clayton M. Christensen</author_name>
+      <user_rating>5</user_rating>
+      <user_read_at>2012/06/01</user_read_at>
+      <user_date_added>2011/03/04</user_date_added>
+      <user_shelves>read</user_shelves>
+      <average_rating>4.10</average_rating>
+    </item>
+  </channel>
+</rss>

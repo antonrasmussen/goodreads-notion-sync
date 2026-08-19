@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Anton's bookshelf: currently-reading</title>
+    <item>
+      <title><![CDATA[Ready to Run: Unlocking Your Potential to Run Naturally]]></title>
+      <book_id>18668429</book_id>
+      <book_image_url>https://example.com/ready-small.jpg</book_image_url>
+      <book_large_image_url>https://example.com/ready.jpg</book_large_image_url>
+      <book id="18668429"><num_pages>288</num_pages></book>
+      <author_name>Kelly Starrett</author_name>
+      <isbn>1628600098</isbn>
+      <user_rating>0</user_rating>
+      <user_read_at></user_read_at>
+      <user_date_added><![CDATA[Wed, 12 Aug 2026 10:17:53 -0700]]></user_date_added>
+      <user_shelves>currently-reading</user_shelves>
+      <average_rating>4.21</average_rating>
+    </item>
+    <item>
+      <title><![CDATA[The DevOps Handbook]]></title>
+      <book_id>34557467</book_id>
+      <book_large_image_url>https://example.com/devops.jpg</book_large_image_url>
+      <book id="34557467"><num_pages>480</num_pages></book>
+      <author_name>Gene Kim</author_name>
+      <isbn>1942788002</isbn>
+      <user_rating>0</user_rating>
+      <user_read_at></user_read_at>
+      <user_date_added>Mon, 05 Jan 2026 09:00:00 -0800</user_date_added>
+      <user_shelves>currently-reading</user_shelves>
+      <average_rating>4.30</average_rating>
+    </item>
+  </channel>
+</rss>

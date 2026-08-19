@@ -1,0 +1,5 @@
+Book Id,Title,Author,Author l-f,Additional Authors,ISBN,ISBN13,My Rating,Average Rating,Publisher,Binding,Number of Pages,Year Published,Original Publication Year,Date Read,Date Added,Bookshelves,Bookshelves with positions,Exclusive Shelf,My Review,Spoiler,Private Notes,Read Count,Owned Copies
+111111,The Green Berets,Robin Moore,"Moore, Robin",,="""1234567890""",="""9781234567890""",4,3.90,Publisher,Paperback,400,1965,1965,2026/01/15,2020/03/01,read,read,read,,,,1,1
+222222,Disrupting Healthcare,Clayton M. Christensen,"Christensen, Clayton M.","Jerome Grossman, Jason Hwang",="""0061137083""",="""9780061137082""",5,4.10,McGraw-Hill,Hardcover,320,2009,2008,2012/06/01,2011/03/04,read,read,read,,,,1,1
+34557467,The DevOps Handbook,Gene Kim,"Kim, Gene","Jez Humble, Patrick Debois, John Willis",="""1942788002""",="""9781942788003""",0,4.30,IT Revolution,Paperback,480,2016,2016,,2026/01/05,currently-reading,currently-reading,currently-reading,,,,0,1
+999999,Some Other Book,Jane Doe,"Doe, Jane",,="""""",="""""",0,3.50,Pub,Paperback,100,2020,2020,,2024/01/01,to-read,to-read,to-read,,,,0,0
