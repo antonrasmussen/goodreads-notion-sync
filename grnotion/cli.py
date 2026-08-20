@@ -23,6 +23,7 @@ def _setup_logging(verbose: bool) -> None:
 
 def cmd_sync_rss(args: argparse.Namespace) -> None:
     settings = Settings()
+    settings.require_notion()
     books = fetch_shelves(
         settings.goodreads_user_id,
         rss_key=settings.goodreads_rss_key,
@@ -34,6 +35,7 @@ def cmd_sync_rss(args: argparse.Namespace) -> None:
 
 def cmd_sync_csv(args: argparse.Namespace) -> None:
     settings = Settings()
+    settings.require_notion()
     csv_books = parse_csv(args.csv_path)
     if args.with_rss:
         rss_books = fetch_shelves(
